@@ -70,10 +70,10 @@ if option == "Prehistory":
 
 elif option == "Classic Era":
     st.image("https://images.saymedia-content.com/.image/t_share/MTg4NzM3NDAxNTYzMzI2MTk2/classical-era-in-music-the-age-of-enlightenment.jpg")
-    video_file = open("classicera.mp4", "rb")
-    video_bytes = video_file.read()
-    st.video(video_bytes)
-   
+    #video_file = open("classicera.mp4", "rb")
+    #video_bytes = video_file.read()
+    #st.video(video_bytes)
+    st.video("https://youtu.be/vfT4xyKQOzY?si=WeofFXM5Xp16rP9P")
 
 elif option == "Early Modern era":
     st.image("https://www.open.edu/openlearn/pluginfile.php/1115923/tool_ocwmanage/image/0/a223_1_OLHP_786x400.jpg")
