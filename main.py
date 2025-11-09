@@ -84,10 +84,10 @@ elif option == "Early Modern era":
 
 elif option == "Future":
     st.image("https://blog.en.erste-am.com/wp-content/uploads/2018/01/Szenario-Stadt-und-Energie-cSiemens-Pictures-of-the-Future-scaled-3.jpg")
-    #video_file = open("future.mp4", "rb")
-    #video_bytes = video_file.read()
-    #st.video(video_bytes)
-    st.video("https://youtu.be/vfT4xyKQOzY?si=-zvXOfmdS3pbyGwi")
+    video_file = open("future.mp4", "rb")
+    video_bytes = video_file.read()
+    st.video(video_bytes)
+    
 elif option == "Middle Age":
     st.image("https://www.paragkhanna.com/wp-content/uploads/2020/07/joan-of-arc-leads-french-army-against-english-defenders-of-les-tourelles-gate-in-siege-of-orleans-may-7-1429-from-19th-century-chromolithograph.jpg")
     #video_file = open("middle.mp4", "rb")
